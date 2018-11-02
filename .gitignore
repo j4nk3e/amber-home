@@ -1,0 +1,15 @@
+/doc/
+/bin/
+/.shards/
+/.vscode/
+.DS_Store
+lib/
+.shards/
+/amber
+/tmp
+shard.lock
+package-lock.json
+node_modules
+public
+db/*.db
+.encryption_key
