@@ -34,20 +34,20 @@
 // 1. Colors
 // ==========================================================================
 
-$primary-color: color("materialize-red", "lighten-2") !default;
+$primary-color: color("deep-orange", "darken-1") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
-$secondary-color: color("teal", "lighten-1") !default;
-$success-color: color("green", "base") !default;
-$error-color: color("red", "base") !default;
-$link-color: color("light-blue", "darken-1") !default;
+$secondary-color: color("blue-grey", "darken-2") !default;
+$success-color: color("blue-grey", "lighten-1") !default;
+$error-color: color("deep-orange", "accent-3") !default;
 
+$link-color: color("blue-grey", "lighten-1") !default;
 
 // 2. Badges
 // ==========================================================================
 
-$badge-bg-color: $secondary-color !default;
+$badge-bg-color: lighten($secondary-color, 45%) !default;
 $badge-height: 22px !default;
 
 
@@ -303,7 +303,7 @@ $toast-action-color: #eeff41;
 // 20. Typography
 // ==========================================================================
 
-$font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !default;
+$font-stack: -apple-system, Roboto, BlinkMacSystemFont, "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !default;
 $off-black: rgba(0, 0, 0, 0.87) !default;
 // Header Styles
 $h1-fontsize: 4.2rem !default;
@@ -334,8 +334,8 @@ $interval-size: $range / $intervals !default;
 // 23. Collections
 // ==========================================================================
 
-$collection-border-color: #e0e0e0 !default;
-$collection-bg-color: #fff !default;
+$collection-border-color: $primary-color-dark !default;
+$collection-bg-color: darken($secondary-color, 10%) !default;
 $collection-active-bg-color: $secondary-color !default;
 $collection-active-color: lighten($secondary-color, 55%) !default;
 $collection-hover-bg-color: #ddd !default;

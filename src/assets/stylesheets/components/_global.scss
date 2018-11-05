@@ -1,7 +1,9 @@
 //Default styles
 
 html {
- box-sizing: border-box;
+  background-color: color("blue-grey", "darken-4");
+  color: lighten($secondary-color, 25%);
+  box-sizing: border-box;
 }
 *, *:before, *:after {
  box-sizing: inherit;
